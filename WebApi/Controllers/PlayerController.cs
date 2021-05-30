@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebApi.DTOs;
 using WebApi.Models;
 using WebApi_DB;
 
@@ -25,6 +26,16 @@ namespace WebApi.Controllers
 
 
         }
+        // GET: api/Player
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Player>>> getAllPlayersMat([FromQuery] PaginationDTO paginationDTO)
+        {
+           var players = _context
+
+            return Ok();
+        }
+
+
 
         // GET: api/Player
         [HttpGet]
