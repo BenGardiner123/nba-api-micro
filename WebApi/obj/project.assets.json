@@ -61,6 +61,21 @@
           "lib/netstandard1.5/CoreCompat.System.ComponentModel.Design.dll": {}
         }
       },
+      "EntityFramework/7.0.0-beta4": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Commands": "7.0.0-beta4"
+        }
+      },
+      "EntityFramework.Commands/7.0.0-beta4": {
+        "type": "package",
+        "compile": {
+          "lib/net451/EntityFramework.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/net451/EntityFramework.Commands.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -2196,6 +2211,49 @@
         "corecompat.system.componentmodel.design.4.2.3-r3.nupkg.sha512",
         "corecompat.system.componentmodel.design.nuspec",
         "lib/netstandard1.5/CoreCompat.System.ComponentModel.Design.dll"
+      ]
+    },
+    "EntityFramework/7.0.0-beta4": {
+      "sha512": "KTplgz4PBKb33t8O0I5S8yBwkU+l9PTymzoTVav8/FGikck55Amf28EOpOZAqnkGIzCGYD5/k26P7AmVyYyTHw==",
+      "type": "package",
+      "path": "entityframework/7.0.0-beta4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "caution.png",
+        "content/deleteme",
+        "entityframework.7.0.0-beta4.nupkg.sha512",
+        "entityframework.nuspec",
+        "readme.html",
+        "tools/install.ps1",
+        "yes.png"
+      ]
+    },
+    "EntityFramework.Commands/7.0.0-beta4": {
+      "sha512": "gPx5U4fQhLJHcertKOZLEja22rk/V5j3eGvXp3/umh8JAgnKDw+GhycCrZtXNd/b2X3MvCMUf7nLDX6+pg8/YQ==",
+      "type": "package",
+      "path": "entityframework.commands/7.0.0-beta4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "app/ef",
+        "app/ef.cmd",
+        "app/project.json",
+        "entityframework.commands.7.0.0-beta4.nupkg.sha512",
+        "entityframework.commands.nuspec",
+        "lib/dnx451/EntityFramework.Commands.dll",
+        "lib/dnx451/EntityFramework.Commands.xml",
+        "lib/dnxcore50/EntityFramework.Commands.dll",
+        "lib/dnxcore50/EntityFramework.Commands.xml",
+        "lib/net451/EntityFramework.Commands.dll",
+        "lib/net451/EntityFramework.Commands.xml",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/Handlers.cs",
+        "tools/IHandlers.cs",
+        "tools/init.ps1"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -7417,6 +7475,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "CoreCompat.System.ComponentModel.DataAnnotations >= 4.2.3-r7",
+      "EntityFramework >= 7.0.0-beta4",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
@@ -7426,19 +7485,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cxxme\\.nuget\\packages\\": {}
+    "C:\\Users\\Cooler Master\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\cxxme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\Cooler Master\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cxxme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cooler Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7452,8 +7511,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cxxme\\source\\NBA_API\\WebApi_DB\\WebApi_DB.csproj": {
-              "projectPath": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi_DB\\WebApi_DB.csproj"
+            "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi_DB\\WebApi_DB.csproj": {
+              "projectPath": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi_DB\\WebApi_DB.csproj"
             }
           }
         }
@@ -7471,6 +7530,10 @@
           "CoreCompat.System.ComponentModel.DataAnnotations": {
             "target": "Package",
             "version": "[4.2.3-r7, )"
+          },
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[7.0.0-beta4, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -7513,8 +7576,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework.Commands 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework.Commands",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

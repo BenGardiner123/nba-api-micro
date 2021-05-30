@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Jn7Z73kt+3CmBLhe/mqCEcTeqYc0Twqoe1h//Y1OHkhWYcPWQhv1FoAkwjcKFNcsSj2dT29a/u6P7W/B5JH81A==",
+  "dgSpecHash": "q1reJ1ez+9TMsMVf11k51VmmxIlRoy0RSkUyZ+NaiHtW0ylz5MpkYuRykJf7/DZclyhUfvVKzqN2uLZ5kGgbaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi.Models\\WebApi.Models.csproj",
+  "projectFilePath": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi.Models\\WebApi.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cxxme\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Cooler Master\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

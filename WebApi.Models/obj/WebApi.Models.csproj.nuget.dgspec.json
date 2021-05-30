@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cxxme\\source\\NBA_API\\WebApi.Models\\WebApi.Models.csproj": {}
+    "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi.Models\\WebApi.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cxxme\\source\\NBA_API\\WebApi.Models\\WebApi.Models.csproj": {
+    "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi.Models\\WebApi.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi.Models\\WebApi.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi.Models\\WebApi.Models.csproj",
         "projectName": "WebApi.Models",
-        "projectPath": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi.Models\\WebApi.Models.csproj",
-        "packagesPath": "C:\\Users\\cxxme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cxxme\\source\\NBA_API\\WebApi.Models\\obj\\",
+        "projectPath": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi.Models\\WebApi.Models.csproj",
+        "packagesPath": "C:\\Users\\Cooler Master\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cooler Master\\Source\\Repos\\nba-api-micro\\WebApi.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cxxme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cooler Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
